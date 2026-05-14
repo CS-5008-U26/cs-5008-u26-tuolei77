@@ -13,14 +13,22 @@
 
 int main() {
 
-    int x;                          // x will be the value entered by the user
+    int x;                          // x will be the first value entered by the user
+    int y;                          // y will be the second value entered by the user
     char s[100];                    // s is used to "pause" the console so it doesn't exit too quickly
 
-    /* Ask for a number and print it out */
-    printf("Enter a number: ");     // prompt the user
+    /* Ask for two numbers and print their sum */
+    printf("Enter a number: \n");     // prompt the user
     scanf("%d", &x);                // read a number from the console ("stdin")
     fgets(s,100,stdin);             // sadly, we have to remove the \n that scanf leaves in stdin
-    printf("You entered %d\n", x);  // tell the user what number they just entered
+
+    printf("Enter another number: \n");     // prompt the user
+    scanf("%d", &y);                // read a number from the console ("stdin")
+    fgets(s,100,stdin);             // sadly, we have to remove the \n that scanf leaves in stdin
+
+    int z = x + y;
+
+    printf("Their sum is %d\n", z);  // tell the user the sum of the numbers they just entered
     
     /* Normally I would not put a comment on every line of code.
        I just did it above because you are learning C for the first time.
