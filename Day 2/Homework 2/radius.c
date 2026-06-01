@@ -17,7 +17,7 @@ int main () {
     fgets(s,100,stdin);
 
     /* Calculate the area */
-    area = (int)(PI * radius * radius);
+    area = (int)(PI * (radius * radius));
 
     /* Display final result on the screen */
     printf ("For a circle of radius %.1f the area is %d\n", (double)radius, area);

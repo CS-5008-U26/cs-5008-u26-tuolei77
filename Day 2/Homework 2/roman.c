@@ -118,7 +118,7 @@ int main () {
             break;
         }
     
-        /* Display tens in Roman numerals. */
+        /* Display units in Roman numerals. */
         switch (units)
         {
         case 1:

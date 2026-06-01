@@ -7,7 +7,7 @@ int main() {
     printf ("What is your name? ");         // prompt the user
     scanf("%s", s);                         // read a string from the console ("stdin")
     fgets(t,100,stdin);                     // sadly, we have to remove the \n that scanf leaves in stdin
-    printf("%s? That's a funny name!",s);   // tell the user what number they just entered
+    printf("%s? That's a funny name!",s);   // tell the user what string they just entered
 
     /*
     Changes made:
