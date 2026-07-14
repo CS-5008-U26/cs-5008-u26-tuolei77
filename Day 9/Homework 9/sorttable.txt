@@ -1,0 +1,21 @@
+10-SECOND N VALUES
+
+                    RANDOM              SORTED          REVERSE
+                    random order data   data is sorted  data is sorted in reverse order
+
+
+BUBBLE SORT         110000              exeed the limit     105000
+
+SELECTION SORT      160500              160000              160000
+
+INSERTION SORT      155000              exeed the limit     110000
+
+MERGE SORT          70000000            180000000           180000000       
+
+QUICK SORT          90000000            110000              135000
+
+BST SORT (no free)  13000000            55000               55000
+
+BST Sort (with free)12000000            55000               55000            
+
+* exceed the limit: N exceeds the maximum value of int (~2.1 billion) before reaching 10 seconds
